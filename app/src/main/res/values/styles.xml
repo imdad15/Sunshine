@@ -34,5 +34,6 @@
         for two-pane layout -->
     </style>
 
-
+    <style name="AppTheme.Main" parent="@style/AppTheme"/>
+    <style name="AppTheme.Details" parent="@style/AppTheme"/>
 </resources>

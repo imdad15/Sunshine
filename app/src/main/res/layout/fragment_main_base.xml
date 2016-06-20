@@ -7,11 +7,9 @@
     tools:context="com.example.android.sunshine.app.ForecastFragment">
 
     <android.support.v7.widget.RecyclerView
-        style="@style/ForecastListStyle"
         android:id="@+id/recyclerview_forecast"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@null"/>
+        android:layout_height="match_parent"/>
     <TextView
         android:id="@+id/recyclerview_forecast_empty"
         android:text="@string/empty_string"
